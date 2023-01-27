@@ -13,11 +13,11 @@ class Vehicle {
 
     start() {
         if (this.fuel > 0) {
-            return this.started = true;
             console.log("engine started...!!!");
+            return this.started = true;
         } else {
-            return this.started = false;
             console.log("engine cannot start...");
+            return this.started = false;
         }
     }
     accelerate() {
@@ -55,7 +55,7 @@ class Vehicle {
         this.started = false;
     }
 
-    drive() {
+    /*drive() {
         accelerate();
     }
     brake() {
@@ -70,7 +70,7 @@ class Vehicle {
     autoDrive()
     {
       
-    }
+    }*/
 
     typeOfVehicle(wheels) {
         if (this.numberOfWheels == 8 && 8 == wheels) {
