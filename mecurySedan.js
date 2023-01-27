@@ -58,3 +58,14 @@ myCar.stop()
 myCar.checkService()
 
 console.log(myCar)
+
+
+
+let mytruck = new truck('ford', 'maverick', '2022', 'oxford white', 40000)
+ 
+mytruck.start()
+mytruck.loadPassenger(5)
+mytruck.stop()
+mytruck.checkService()
+
+console.log(mytruck)
