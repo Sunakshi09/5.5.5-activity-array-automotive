@@ -140,18 +140,3 @@ myCar.stop();
 myCar.checkService();
 
 console.log(myCar);
-
-
-
-
-
-
-
-let myTruck = new Truck("ford", "maverick", "2022", "oxford white", 40000);
-
-myTruck.start();
-myTruck.loadPassenger(5);
-myTruck.stop();
-myTruck.checkService();
-
-console.log(myTruck);
